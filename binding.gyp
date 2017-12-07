@@ -63,6 +63,12 @@
             "cflags_cc": [
                 "-std=c++0x -fpermissive"
             ],
+            'cflags_cc!': [
+                '-fpermissive'
+            ],
+            'cflags': [
+                '-fpermissive'
+            ],
         }
     ]
 }
